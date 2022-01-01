@@ -80,7 +80,6 @@ class TestWebsite(unittest.TestCase):
         driver.find_element_by_link_text("DISLIKE").click()
         time.sleep(15)
 
-
     def tearDown(self):
         self.driver.close()
 
